@@ -1,0 +1,328 @@
+
+html{
+    scroll-behavior: smooth;
+}
+.vsk-top-header{
+    background-color: #20242A;
+    padding: 8px 0;
+}
+.vsk-top-header span{
+    font-size: 14px;
+    color: #EBEBEB;
+    font-weight: 500;
+    line-height: 16.94px;
+}
+.country-flag{
+    margin-left: 15px;
+}
+.col-height-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub-heading-gradient{
+    background: linear-gradient(90deg, #FFFFFF 0%, #6952F6 14.9%, #4C30F5 47%, #573DF5 76.89%, #FFFFFF 100%);
+    color: #ffffff;
+    text-align: center;
+    padding: 13px 0;
+    margin-bottom: 2rem;
+}
+.sub-heading-gradient h2{
+    font-size: 2rem;
+    font-family: 'Outfit';
+}
+/* New */
+.nat-text{
+    font-size: 24px;
+    font-weight: 500;
+    color: #434141;
+    font-family: 'Outfit';
+}
+.menu-header{
+    box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.1);
+}
+.menu-header nav{
+    background-color: #ffffff;
+    padding: 5px 0;
+}
+.menu-header .navbar-nav{   
+    justify-content: center;
+    width: 100%;
+}
+.menu-header .navbar-nav li a{
+    font-size: 15px;
+    color: #434141;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+}
+.menu-header .nav-link.active,
+.menu-header .navbar-nav .show>.nav-link{
+    color: #4C30F5 !important;
+}
+/* Dropdown */
+.dashboard-dropdown .dropdown .dropdown-menu {
+    display: none;
+  }
+.dashboard-dropdown .dropdown-item:hover {
+    background-color: #4C30F5;
+    color: #fff !important;
+  }
+.dashboard-dropdown .navbar-expand-lg .navbar-nav .dropdown-menu{
+    top: 36px !important;
+  }
+.dashboard-dropdown .dropdown-toggle::after{
+    height: 100%;
+    border: 0;
+    background: url('../img/dropdown-arrow1.svg') no-repeat;
+    width: 20%;
+    position: absolute;
+  }
+  .dropdown:hover > .dropdown-menu{
+  display: block;
+  margin-top: 0.125em;
+  margin-left: 0.125em;
+  top: 34px;
+}
+@media screen and (min-width: 769px) {
+    .dropend:hover > .dropdown-menu {
+      position: absolute;
+      top: 0;
+      left: 100%;
+    }
+    .dropend .dropdown-toggle {
+      margin-left: 0.5em;
+    }
+  }
+.section-padding{
+    padding: 40px 0;
+}
+.blue-dot-list li::marker {
+    color: #4C30F5;
+    font-size: 17px;
+  }
+  .blue-text{
+    color: #4C30F5;
+  }
+.map-img{
+    margin: 0 auto;
+}
+.map-img img{
+    max-width: 50%;
+}
+/* Footer sec */
+.footer-dark-sec{
+    background-color: #20242A;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+.footer-dark-sec hr{
+    margin: 0.25rem 0;
+}
+.footer-dark-sec p{
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+.nat-text-tab{
+    display: none;
+}
+@media (max-width:576px) {
+    .mob-container{
+        padding: 0 2px;
+    }
+    .nat-text-tab{
+        display: block;
+    }
+    .navbar-brand{
+        margin-right: 0;
+        width: auto;
+        display: flex;
+    }
+    .navbar-brand img{
+        max-width: 70%;
+    }
+    .navbar-light .navbar-toggler{
+        font-size: 1rem;
+    }
+    .nat-text{
+        font-size: 11px;
+    }
+    .nat-text-lg{
+        display: none;
+    }
+    .map-img img {
+        max-width: 90%;
+    }
+    .key-mob-img{
+        display: block !important;
+    }
+    .key-img{
+        display: none;
+    }
+}
+@media (min-width:576px) and (max-width:768px){
+    .nat-text-tab{
+        font-size: 20px;
+    }
+    .key-img{
+        display: none !important;
+    }
+    .key-tab-img{
+        display: block !important;
+    }
+}
+@media (max-width:768px){
+    .nat-text-tab{
+        display: block;
+
+    }
+    .nat-text-lg{
+        display: none;
+    }
+    .menu-header nav{
+        justify-content: space-between;
+    }
+    .footer-img img{
+        max-width: 85%;
+    }
+    .section-padding {
+        padding: 20px 0;
+    }
+}
+@media (max-width:376px){
+    .navbar-brand img {
+        max-width: 65%;
+    }
+    .nat-text-tab {
+        margin-left: -37px;
+    }
+}
+@media (min-width:1024px) and (max-width:1440px){
+    .key-img{
+        max-width: 85%;
+    }
+}
+/* about page */
+.head-title{
+    margin-bottom: 1.5rem;
+}
+.head-title h1{
+    font-size: 3.45rem;
+    color: #434141;
+    line-height: 80px;
+    font-family: 'Outfit';
+}
+.about-sec p{
+    line-height: 36px;
+    text-align: justify;
+}
+.contact-sec p{
+    line-height: 36px;
+}
+.cont-detail span{
+    font-size: 15px;
+    line-height: 26px;
+}
+.cont-detail .cont-icon{
+    margin-right: 5px;
+}
+/* Key benefit */
+.key-ben-box{
+    background-color: #ffffff;
+    box-shadow: 0px 0px 50px 0px rgba(210, 206, 233, 1);
+    position: relative;
+    padding: 10px 20px 5px 0;
+    margin-bottom: 15px;
+}
+.key-ben-box h3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.4px;
+    border-bottom: 1px solid #EBEBEB;
+    margin-left: 2rem;
+    padding-bottom: 0.475rem;
+}
+.key-ben-box.peach h3{
+    color: #F5845B;
+}
+.key-ben-box.yellow h3{
+    color: #FFB543;
+}
+.key-ben-box.orange h3{
+    color: #D96C24;
+}
+.key-ben-box.purple h3{
+    color: #70367A;
+}
+.key-ben-box.pink h3{
+    color: #E3007B;
+}
+.key-ben-box.lpurple h3{
+    color: #A500C0;
+}
+.key-ben-box::before{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 12px;
+    left: 0;
+    top: 0;
+    
+}
+.key-ben-box ul li{
+    position: relative;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    padding-left: 20px;
+    list-style: none;
+    margin-bottom: 0.2rem;
+}
+.key-ben-box.peach::before{
+    background-color: #F5845B;
+}
+.key-ben-box.yellow::before{
+    background-color: #FFB543;
+}
+.key-ben-box.orange::before{
+    background-color: #D96C24;
+}
+.key-ben-box.purple::before{
+    background-color: #70367A;
+}
+.key-ben-box.pink::before{
+    background-color: #E3007B;
+}
+.key-ben-box.lpurple::before{
+    background-color: #A500C0;
+}
+.key-ben-box ul li::before{
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    content: '.';
+    left: 0;
+    border-radius: 50%;
+    top: 7px;
+}
+.key-ben-box.peach ul li::before{
+    background-color: #F5845B;
+}
+.key-ben-box.yellow ul li::before{
+    background-color: #FFB543;
+}
+.key-ben-box.orange ul li::before{
+    background-color: #D96C24;
+}
+.key-ben-box.purple ul li::before{
+    background-color: #70367A;
+}
+.key-ben-box.pink ul li::before{
+    background-color: #E3007B;
+}
+.key-ben-box.lpurple ul li::before{
+    background-color: #A500C0;
+}
+.key-mob-img, .key-tab-img{
+    display: none;
+}
