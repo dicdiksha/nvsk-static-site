@@ -209,11 +209,6 @@ html{
         margin-left: -37px;
     }
 }
-/* @media (min-width:1024px) and (max-width:1440px){
-    .key-img{
-        max-width: 85%;
-    }
-} */
 /* about page */
 .head-title{
     margin-bottom: 1.5rem;
@@ -343,30 +338,6 @@ html{
 }
 .key-ben-box.cust-lh ul li{
     line-height: 20px;
-}
-
-/* @media (max-width:1198px){
-    
-    .key-img{
-        display: none;
-    }
-} */
-@media (min-width: 1199.98px) and (max-width:1025px){
-    /* .key-img{
-        display: none !important;
-    } */
-    /* .key-lg-img{
-        display: block !important;
-    } */
-}
-@media (min-width: 1026px){
-    /* .key-img{
-        display: block !important;
-        margin-top: 22px;
-    } */
-    /* .key-lg-img{
-        display: none !important;
-    } */
 }
 @media (max-width:1023px){
     .key-img{
