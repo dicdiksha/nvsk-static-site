@@ -126,7 +126,7 @@ html{
 .nat-text-tab{
     display: none;
 }
-@media (max-width:576px) {
+@media (max-width: 575.98px) {
     .mob-container{
         padding: 0 2px;
     }
@@ -178,13 +178,6 @@ html{
     }
 }
 @media (max-width:768px){
-    .nat-text-tab{
-        display: block;
-
-    }
-    .nat-text-lg{
-        display: none;
-    }
     .menu-header nav{
         justify-content: space-between;
     }
@@ -364,5 +357,14 @@ html{
 @media (min-width: 768px) and (max-width: 991.98px){
     .key-img{
         display: none !important;
+    }
+}
+@media (max-width: 991px){
+    .nat-text-tab{
+        display: block;
+    
+    }
+    .nat-text-lg{
+        display: none;
     }
 }
